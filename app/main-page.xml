@@ -1,0 +1,11 @@
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+  xmlns:calendar="nativescript-ui-calendar"
+  navigatingTo="onNavigatingTo"
+  class="page">
+    <Page.actionBar>
+        <ActionBar title="Calendar test" icon="" class="action-bar">
+        </ActionBar>
+    </Page.actionBar>
+    <calendar:RadCalendar id="calendar" eventSource="{{ calendarEvents }}" eventsViewMode="Inline"/>
+</Page>
